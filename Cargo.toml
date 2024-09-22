@@ -1,0 +1,7 @@
+[package]
+name = "moose23967-ru"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+may_minihttp = "0.1"

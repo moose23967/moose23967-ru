@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Courier';
+  src: url('courier.ttf');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0f100a;
+  font-size: 24px;
+  font-family: 'Courier';
+  text-align: center;
+}
+
+a,
+body {
+  color: #5a626f
+}
