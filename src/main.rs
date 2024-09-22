@@ -6,7 +6,7 @@ pub mod application_factory;
 
 fn main() {
     ApplicationFactory
-        .start("127.0.0.1:8080")
+        .start("0.0.0.0:80")
         .unwrap()
         .join()
         .unwrap();
