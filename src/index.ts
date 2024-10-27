@@ -6,7 +6,9 @@ type Social =
 	| 'soundcloud'
 	| 'spotify'
 	| 'telegram'
-	| 'vk';
+	| 'vk'
+	| 'pypi'
+	| 'npmjs';
 
 const socials: Record<Social, string> = {
 	github: 'https://github.com/moose23967',
@@ -15,6 +17,8 @@ const socials: Record<Social, string> = {
 	spotify: 'https://open.spotify.com/user/31jgugynqmzpiwoxdkjqor6degdu',
 	telegram: 'https://t.me/moose23967',
 	vk: 'https://vk.com/musu23967',
+	pypi: 'https://pypi.org/user/moose23967',
+	npmjs: 'https://npmjs.com/~musu23967',
 };
 
 new Elysia({
