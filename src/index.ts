@@ -32,5 +32,5 @@ new Elysia({
 
 		return 'Meow';
 	})
-	.get('/uptime', () => 'Meow')
+	.head('/uptime', () => 'Meow')
 	.listen(10_000);
